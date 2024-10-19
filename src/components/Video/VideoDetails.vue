@@ -1,13 +1,12 @@
 <script setup>
     let name = 'Dyangoo';
-    let image = 'src/assets/dyangoo.png';
     const props = defineProps({
         title: String });
 </script>
 
 <template>
     <div class="video__detail">
-        <img :src="image" alt="profile picture">
+        <img src="../../assets/dyangoo.png" alt="profile picture">
         <p class="username">{{ name }}</p>
     </div>
             <h2>{{ title }}</h2>
